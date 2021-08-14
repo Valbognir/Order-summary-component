@@ -17,6 +17,9 @@
     margin: 0;
     padding: 0;
 }
+.p-info-min {
+    display: none;
+}
 p {
     font-size: 16px;
 }
@@ -121,4 +124,29 @@ body {
 .attribution {
     bottom: 10px;
     position: absolute;
+}
+@media screen and (max-width:480px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        padding: 20px;
+    }
+    .card {
+        max-width: 370px;
+        min-height: 630px;
+    }
+    .plan {
+        margin: 20px 35px 0 35px;
+    }
+    .payment {
+        margin: 30px 35px 0 35px;
+    }
+    .payment a {
+        font-size: 20px;
+    }
+    .p-info{
+        display: none;
+    }
+    .p-info-min {
+        display: block;
+    }
 }
