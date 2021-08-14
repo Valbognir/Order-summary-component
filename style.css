@@ -53,6 +53,7 @@ body {
 .info h1 {
     padding-top: 40px;
     color: var(--DarkBlue);
+    font-size: 1.75em;
 }
 .info p {
     color: var(--DesaturedBlue);
@@ -101,6 +102,7 @@ body {
     width: 100%;
     display: inline-block;
     font-size: 16px;
+    
 }
 .payment:hover {
     opacity: 0.7;
